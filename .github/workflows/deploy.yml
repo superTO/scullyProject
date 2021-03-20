@@ -11,3 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: cmgriffing/scully-gh-pages-action@v9
+        with:
+          access-token: ${{ PAT }}
